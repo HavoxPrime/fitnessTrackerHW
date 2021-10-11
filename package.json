@@ -1,0 +1,31 @@
+{
+  "name": "fitnesstrackerhw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HavoxPrime/fitnessTrackerHW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HavoxPrime/fitnessTrackerHW/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "homepage": "https://github.com/HavoxPrime/fitnessTrackerHW#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
